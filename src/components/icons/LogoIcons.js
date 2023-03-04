@@ -1,0 +1,23 @@
+import * as React from "react";
+
+const LogoIcons = (props) => {
+    return (
+        <svg width="1512" height="982" viewBox="0 0 1512 982 {...props}" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <line x1="761" y1="40" x2="761" y2="960" stroke="#00C2FF" stroke-width="30"/>
+        <line x1="761" y1="40" x2="761" y2="960" stroke="#0500FF" stroke-opacity="0.2" stroke-width="30"/>
+        <path d="M746 45H1123.5C1151.11 45 1173.5 67.3858 1173.5 95V443.5C1173.5 471.114 1151.11 493.5 1123.5 493.5H746" stroke="#00C2FF" stroke-width="30"/>
+        <path d="M746 45H1123.5C1151.11 45 1173.5 67.3858 1173.5 95V443.5C1173.5 471.114 1151.11 493.5 1123.5 493.5H746" stroke="#0500FF" stroke-opacity="0.2" stroke-width="30"/>
+        <path d="M757.5 493.5L380 493.5C352.386 493.5 330 471.114 330 443.5L330 95.0001C330 67.3858 352.386 45.0001 380 45.0001L757.5 45.0001" stroke="#00C2FF" stroke-width="30"/>
+        <path d="M757.5 493.5L380 493.5C352.386 493.5 330 471.114 330 443.5L330 95.0001C330 67.3858 352.386 45.0001 380 45.0001L757.5 45.0001" stroke="#0500FF" stroke-opacity="0.2" stroke-width="30"/>
+        <path d="M758 485L1167 948" stroke="#00C2FF" stroke-width="30"/>
+        <path d="M758 485L1167 948" stroke="#0500FF" stroke-opacity="0.2" stroke-width="30"/>
+        <path d="M760 788H1023.5" stroke="#00C2FF" stroke-width="30"/>
+        <path d="M760 788H1023.5" stroke="#0500FF" stroke-opacity="0.2" stroke-width="30"/>
+        <path d="M776 945L320 945" stroke="#00C2FF" stroke-width="30"/>
+        <path d="M776 945L320 945" stroke="#0500FF" stroke-opacity="0.2" stroke-width="30"/>
+        </svg>  
+    )
+}
+
+export default LogoIcons;
+
