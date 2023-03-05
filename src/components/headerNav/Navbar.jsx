@@ -6,16 +6,13 @@ import Brightness4Icon from '@mui/icons-material/Brightness4';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
-<<<<<<< HEAD
-import Logo from './RSALogo.png';
+// import Logo from './RSALogo.png';
 
 
 // import Logo from "../img/RSALogo.png"
-=======
 
 
 import Logo from "../img/RSALogo.png"
->>>>>>> 195834b (push pertama)
 
 const Navbar = () => {
     
@@ -70,11 +67,7 @@ const Navbar = () => {
             <div>
             </div>
             {/* Start SideBar */}
-<<<<<<< HEAD
                 <div className="Sidenav__ fixed text-center h-full w-60 z-10 bg-black text-yellow-50" id="mySidenav" >
-=======
-                <div className="Sidenav__ fixed h-full w-60 z-10 bg-black text-yellow-50" id="mySidenav" >
->>>>>>> 195834b (push pertama)
                     <CloseIcon/>
                     <div className="grid grid-cols-1">
                         <h1 className="font-mono font-bold text-green-600 text-2xl p-5">Menu Utama</h1>
