@@ -37,7 +37,7 @@ const Home = () => {
                                 <div className="cardProject__ border xss:max-h-max xss:w-72 xss:m-auto shadow-lg rounded-lg bg-gray-50 ">
                                     <img className="xss:object-cover rounded-t-lg xss:h-48 xss:w-full" src={Img1} alt="" />
                                     <div className="titleCard__ xss:p-2">
-                                        <h3 className="xss:text-md font-sans font-bold">E-commerce app (Coming Soon)</h3>
+                                        <h3 className="xss:text-md font-sans font-bold">My Portfolio</h3>
                                     </div>
                                     <p className="px-5 text-sm text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam totam praesentium aperiam molestias officiis voluptates, asperiores incidunt hic provident dolores neque unde cupiditate </p>
                                     <div className="flex xss:justify-center xss:m-2 font-sans font-light">
