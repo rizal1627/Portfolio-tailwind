@@ -4,7 +4,10 @@ import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Home from "./components/Home"
 import About from './components/section/About';
 import Projects from './components/section/Projects';
+<<<<<<< HEAD
 import React from 'react';
+=======
+>>>>>>> 195834b (push pertama)
 // import Home2 from './components/Home2';
 // import Skills from './components/section/Skills';
 

@@ -559,6 +559,7 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+<<<<<<< HEAD
 .fixed {
   position: fixed;
 }
@@ -585,6 +586,40 @@ video {
 
 .m-2 {
   margin: 0.5rem;
+=======
+.container {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+>>>>>>> 195834b (push pertama)
 }
 
 .mx-2 {
@@ -592,6 +627,7 @@ video {
   margin-right: 0.5rem;
 }
 
+<<<<<<< HEAD
 .mx-4 {
   margin-left: 1rem;
   margin-right: 1rem;
@@ -764,12 +800,26 @@ video {
 
 .p-4 {
   padding: 1rem;
+=======
+.my-5 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.h-20 {
+  height: 5rem;
+}
+
+.w-40 {
+  width: 10rem;
+>>>>>>> 195834b (push pertama)
 }
 
 .p-5 {
   padding: 1.25rem;
 }
 
+<<<<<<< HEAD
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
@@ -830,11 +880,14 @@ video {
   line-height: 1.25rem;
 }
 
+=======
+>>>>>>> 195834b (push pertama)
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
 
+<<<<<<< HEAD
 .font-bold {
   font-weight: 700;
 }
@@ -1370,4 +1423,8 @@ video {
   .xl\:pl-96 {
     padding-left: 24rem;
   }
+=======
+.font-extrabold {
+  font-weight: 800;
+>>>>>>> 195834b (push pertama)
 }

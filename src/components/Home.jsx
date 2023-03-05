@@ -1,7 +1,12 @@
 import "../index.css"
 import React from "react";
+<<<<<<< HEAD
 import Img1 from "./RSALogo_with_name.png"
 import LogoFooter from "./RSALogo_with_name.png"
+=======
+import Img1 from "./img/pd1.png"
+import LogoFooter from "./img/RSALogo_with_name.png"
+>>>>>>> 195834b (push pertama)
 import FileDownloadIcon from '@mui/icons-material/FileDownload';
 import Navbar from "./headerNav/Navbar";
 
@@ -10,7 +15,11 @@ const Home = () => {
         <div className="Main xs:w-full">
             <Navbar/>
             <div className="Menu__">
+<<<<<<< HEAD
                     <section className="HTop md:w-full xss:w-full grid grid-cols-1 touch-auto " id="home">
+=======
+                    <section className="HTop md:w-full xss:w-full grid grid-cols-1 " id="home">
+>>>>>>> 195834b (push pertama)
                         <h1  className="xss:p-5 xss:text-3xl font-mono font-bold tracking-wide ">Hello, I'am 
                             <br></br><span className="text-pink-800"> Rizal Setio Aji</span>
                         </h1>
@@ -37,7 +46,11 @@ const Home = () => {
                                 <div className="cardProject__ border xss:max-h-max xss:w-72 xss:m-auto shadow-lg rounded-lg bg-gray-50 ">
                                     <img className="xss:object-cover rounded-t-lg xss:h-48 xss:w-full" src={Img1} alt="" />
                                     <div className="titleCard__ xss:p-2">
+<<<<<<< HEAD
                                         <h3 className="xss:text-md font-sans font-bold">My Protfolio WEB</h3>
+=======
+                                        <h3 className="xss:text-md font-sans font-bold">E-commerce app (Coming Soon)</h3>
+>>>>>>> 195834b (push pertama)
                                     </div>
                                     <p className="px-5 text-sm text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam totam praesentium aperiam molestias officiis voluptates, asperiores incidunt hic provident dolores neque unde cupiditate </p>
                                     <div className="flex xss:justify-center xss:m-2 font-sans font-light">
@@ -83,7 +96,11 @@ const Home = () => {
                             <p>Saya bekera sebagai QA Manual di Tokopedia pada akhir tahun 2020, pada pekerjaan ini saya sangat bersyukur bisa bergabung di salah satu perushaan e-commerce terbesar di Indonesia. Di sini saya sangat mendapat banyak ilmu, yang dari sebelumnya belum mengetahui banyak teknologi sekarang telah mendapatkan nya walau masih perlu untuk belajar lebih giat lagi. Dan untuk saat ini, saya sangat menikmati pekerjaan saya di bidang Startup seperti ini.</p>
                         </div>
                     </section>
+<<<<<<< HEAD
                     <section className="Contact_ md:w-full xss:w-full touch-auto" id="contact">
+=======
+                    <section className="Contact_ md:w-full xss:w-full" id="contact">
+>>>>>>> 195834b (push pertama)
                         <h1 className="TitlelContact__ xss:text-3xl xss:py-16 font-mono font-bold" > Contact Me</h1>
                         <h2>Contact Me Today!</h2>
                         <p>Hubungi Saya melalui salah satu social media saya yang telah ada di bawah ini.</p>
