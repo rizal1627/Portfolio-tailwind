@@ -11,11 +11,11 @@ const Home = () => {
             <Navbar/>
             <div className="Menu__">
                     <section className="HTop md:w-full xss:w-full grid grid-cols-1 " id="home">
-                        <h1  className="xss:p-5 xss:text-3xl font-mono font-bold tracking-wide ">Hello, I'am 
+                        <h1  className="TNxss font-mono font-bold tracking-wide ">Hello, I'am 
                             <br></br><span className="text-pink-800"> Rizal Setio Aji</span>
                         </h1>
-                        <h2 className="xss:text-lg xss:m-2 font-sans font-bold ransition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 ...">QA Manual </h2>
-                        <div className="DescCard__ xsss:text-justify xss:text-xs grid grid-cols-1">
+                        <h2 className="TWxss font-sans font-bold ransition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 ...">QA Manual </h2>
+                        <div className="DescCard__ DHxss grid grid-cols-1">
                             <p className="xss:px-10 text-lg font-sans">This is my web Portfolio.
                             I have 2+ Years of Experience in QA Manual for 2+ years now. I Started My Career From QA Manual PT Palu Bisnis Servis with Project Tokopedia as QA manual WEB Platform.
                             I am So Glad with my work, because my project is Very Useful for others.
