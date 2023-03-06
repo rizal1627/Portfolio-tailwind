@@ -84,7 +84,7 @@ code {
   @apply xss:p-5 xss:text-3xl;
 }
 .TWxss {
-  @apply xss:text-lg xss:m-2 xss:text-red-500;
+  @apply xss:text-lg xss:m-2;
 }
 .DHxss {
   @apply xss:text-center xss:text-xs;
