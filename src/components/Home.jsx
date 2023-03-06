@@ -4,6 +4,7 @@ import Img1 from "./img/pd1.png"
 import LogoFooter from "./img/RSALogo_with_name.png"
 import FileDownloadIcon from '@mui/icons-material/FileDownload';
 import Navbar from "./headerNav/Navbar";
+import TailwindIcon from "./icons/TailwindIcon";
 
 const Home = () => {
     return (
@@ -43,7 +44,7 @@ const Home = () => {
                                     <div className="flex xss:justify-center xss:m-2 font-sans font-light">
                                         <div className="grid xss:grid-cols-2 xss:p-4">
                                             <p className="border border-solid rounded-xl w-20 m-2 shadow-md outline outline-blue-700 shadow-blue-500/50" >Html</p>
-                                            <p className="border border-solid rounded-xl w-20 m-2 shadow-md outline outline-blue-700 shadow-blue-500/50" >Tailwind</p>
+                                            <p className="border border-solid rounded-xl w-20 m-2 shadow-md outline outline-blue-700 shadow-blue-500/50" ><TailwindIcon /></p>
                                             <p className="border border-solid rounded-xl w-20 m-2 shadow-md outline outline-blue-700 shadow-blue-500/50" >JS</p>
                                             <p className="border border-solid rounded-xl w-20 m-2 shadow-md outline outline-blue-700 shadow-blue-500/50" >React</p>
                                             <p className="border border-solid rounded-xl w-20 m-2 shadow-md outline outline-blue-700 shadow-blue-500/50" >Mysql</p>
@@ -53,7 +54,7 @@ const Home = () => {
                                 <div className="cardProject__ border xss:max-h-max xss:w-72 xss:m-auto shadow-lg rounded-lg bg-gray-50 ">
                                     <img className="xss:object-cover rounded-t-lg xss:h-48 xss:w-full" src={Img1} alt="" />
                                     <div className="titleCard__ xss:p-2">
-                                        <h3 className="xss:text-md font-sans font-bold">E-commerce app (Coming Soon)</h3>
+                                        <h3 className="xss:text-md font-sans font-bold">E-commerce App (Coming Soon)</h3>
                                     </div>
                                     <p className="px-5 text-sm text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam totam praesentium aperiam molestias officiis voluptates, asperiores incidunt hic provident dolores neque unde cupiditate </p>
                                     <div className="flex xss:justify-center xss:m-2 font-sans font-light">
