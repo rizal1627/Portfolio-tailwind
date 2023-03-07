@@ -4,14 +4,16 @@ import Img1 from "./img/pd1.png"
 import LogoFooter from "./img/RSALogo_with_name.png"
 import FileDownloadIcon from '@mui/icons-material/FileDownload';
 import Navbar from "./headerNav/Navbar";
-import TailwindIcon from "./icons/TailwindIcon";
+import { 
+    SiTailwindcss, SiHtml5, SiJavascript, SiReact, SiMysql, SiCss3, SiGithub 
+    } from "react-icons/si";
 
 const Home = () => {
     return (
         <div className="Main xs:w-full">
             <Navbar/>
             <div className="Menu__">
-                    <section className="HTop md:w-full xss:w-full grid grid-cols-1 " id="home">
+                    <section className="HTop md:w-full xs:w-full xss:w-full grid grid-cols-1 " id="home">
                         <h1  className="TNxss font-mono font-bold tracking-wide ">Hello, I'am 
                             <br></br><span className="text-pink-800"> Rizal Setio Aji</span>
                         </h1>
@@ -43,11 +45,10 @@ const Home = () => {
                                     <p className="px-5 text-sm text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam totam praesentium aperiam molestias officiis voluptates, asperiores incidunt hic provident dolores neque unde cupiditate </p>
                                     <div className="flex xss:justify-center xss:m-2 font-sans font-light">
                                         <div className="grid xss:grid-cols-2 xss:p-4">
-                                            <p className="border border-solid rounded-xl w-20 m-2 shadow-md outline outline-blue-700 shadow-blue-500/50" >Html</p>
-                                            <p className="border border-solid rounded-xl w-20 m-2 shadow-md outline outline-blue-700 shadow-blue-500/50" ><TailwindIcon /></p>
-                                            <p className="border border-solid rounded-xl w-20 m-2 shadow-md outline outline-blue-700 shadow-blue-500/50" >JS</p>
-                                            <p className="border border-solid rounded-xl w-20 m-2 shadow-md outline outline-blue-700 shadow-blue-500/50" >React</p>
-                                            <p className="border border-solid rounded-xl w-20 m-2 shadow-md outline outline-blue-700 shadow-blue-500/50" >Mysql</p>
+                                            <p className="border border-solid rounded-xl w-20 m-2 shadow-md outline outline-blue-700 shadow-blue-500/50 flex justify-center py-2" ><SiHtml5 /></p>
+                                            <p className="border border-solid rounded-xl w-20 m-2 shadow-md outline outline-blue-700 shadow-blue-500/50 flex justify-center py-2" ><SiTailwindcss className="" /></p>
+                                            <p className="border border-solid rounded-xl w-20 m-2 shadow-md outline outline-blue-700 shadow-blue-500/50 flex justify-center py-2" ><SiJavascript /></p>
+                                            <p className="border border-solid rounded-xl w-20 m-2 shadow-md outline outline-blue-700 shadow-blue-500/50 flex justify-center py-2" ><SiCss3 /></p>
                                         </div>
                                     </div>
                                 </div>
@@ -59,19 +60,28 @@ const Home = () => {
                                     <p className="px-5 text-sm text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam totam praesentium aperiam molestias officiis voluptates, asperiores incidunt hic provident dolores neque unde cupiditate </p>
                                     <div className="flex xss:justify-center xss:m-2 font-sans font-light">
                                         <div className="grid xss:grid-cols-2 xss:p-4">
-                                            <p className="border border-solid rounded-xl w-20 m-2 shadow-md outline outline-blue-700 shadow-blue-500/50" >Html</p>
-                                            <p className="border border-solid rounded-xl w-20 m-2 shadow-md outline outline-blue-700 shadow-blue-500/50" >Tailwind</p>
-                                            <p className="border border-solid rounded-xl w-20 m-2 shadow-md outline outline-blue-700 shadow-blue-500/50" >JS</p>
-                                            <p className="border border-solid rounded-xl w-20 m-2 shadow-md outline outline-blue-700 shadow-blue-500/50" >React</p>
-                                            <p className="border border-solid rounded-xl w-20 m-2 shadow-md outline outline-blue-700 shadow-blue-500/50" >Mysql</p>
+                                            <p className="border border-solid rounded-xl w-20 m-2 shadow-md outline outline-blue-700 shadow-blue-500/50 flex justify-center py-2" ><SiHtml5 /></p>
+                                            <p className="border border-solid rounded-xl w-20 m-2 shadow-md outline outline-blue-700 shadow-blue-500/50 flex justify-center py-2" ><SiTailwindcss /></p>
+                                            <p className="border border-solid rounded-xl w-20 m-2 shadow-md outline outline-blue-700 shadow-blue-500/50 flex justify-center py-2" ><SiJavascript /></p>
+                                            <p className="border border-solid rounded-xl w-20 m-2 shadow-md outline outline-blue-700 shadow-blue-500/50 flex justify-center py-2" ><SiReact /></p>
+                                            <p className="border border-solid rounded-xl w-20 m-2 shadow-md outline outline-blue-700 shadow-blue-500/50 flex justify-center py-1" ><SiMysql size={22} /></p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </section>
-                    <section className="Skills_ md:w-full xss:w-full xss:p-5 bg-gradient-to-t from-slate-100/0 to-sky-300/25" id="skills">
-                        <h1 className="TitleSkills_ xss:text-3xl font-mono font-bold xss:py-16" >Skills</h1>
+                    <section className="Skills_ md:w-full xss:w-full xss:p-5 max-h-max bg-gradient-to-t from-slate-100/0 to-sky-300/25" id="skills">
+                        <h1 className="TitleSkills_ xss:text-3xl font-mono font-bold xss:py-10" >Skills</h1>
+                        <hr className="xss:py-5 xss:mx-20"></hr>
+                        <div className="ListSkillS_ grid xss:grid-cols-1 xss:gap-3 xss:m-10">
+                            <div className="skill1_"><SiHtml5 color='#e44d26' size={50} /></div>
+                            <div className="skill2_"><SiTailwindcss color='#06b6d4' size={50} /></div>
+                            <div className="skill3_"><SiJavascript color='#f7df1e' size={50} /></div>
+                            <div className="skill4_"><SiReact color='#00d8ff' size={50} /></div>
+                            <div className="skill5_"><SiMysql color='#00758f' size={50} /></div>
+                            <div className="skill5_"><SiGithub color='#000000' size={50} /></div>
+                        </div>
                     </section>
                     <section className="About_ md:w-full xss:w-full xss:max-h-max xss:px-10 xss:pb-10 bg-slate-100 " id="about">
                         <h1 className="TilteAbout__ xss:text-3xl xss:pt-16 font-mono font-bold">About me</h1>
