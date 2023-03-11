@@ -14,8 +14,9 @@ import Logo from "../img/RSALogo.png"
 
 const Navbar = () => {
     
+    
     return (
-        <div>
+        <>
             <div className="Header_Main flex sm:fixed xs:fixed xss:fixed xl:w-full lg:w-full md:w-full sm:w-full xs:w-full xss:w-full xl:h-20 lg:h-20 md:h-20 sm:h-20 xs:h-20 xss:h-20 shadow-lg bg-gray-50 ">
                 <div className="Nav__ flex sm:py-2 xs:py-2 xss:m-3 xss:p-2 xl:w-full lg:w-full md:w-full sm:w-full xs:w-full xss:w-full items-center">
                     <div className="NavList__ flex items-center">
@@ -27,7 +28,7 @@ const Navbar = () => {
                         <div className="MenuLink__ xl:pr-100 lg:mx-1 md:px-20 sm:p-2 sm:w-96 xs:w-50 xss:w-32 font-sans text-lg xl:visible lg:visible md:visible xss:invisible font-bold">
                             <div className="ListMenu__ md:pl-5 ">
                                 <ul className="flex">
-                                    <li><a className="p-4 hover:text-pink-800 transition delay-150 ease-in-out " href="#home">Home</a></li>
+                                    <li><a className="p-4 hover:text-pink-800 active:focus:text-pink-200 transition delay-150 ease-in-out " href="#home" >Home</a></li>
                                     <li><a className="p-4 hover:text-pink-800 transition delay-150 ease-in-out" href="#projects">Projects</a></li>
                                     <li><a className="p-4 hover:text-pink-800 transition delay-150 ease-in-out" href="#skills">Skill</a></li>
                                     <li><a className="p-4 hover:text-pink-800 transition delay-150 ease-in-out" href="#about">About</a></li>
@@ -79,7 +80,7 @@ const Navbar = () => {
                     </div>
                 </div>
             {/* End SideBar */}
-        </div>
+        </>
     )
 
 }
