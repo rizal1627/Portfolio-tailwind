@@ -40,7 +40,7 @@ const Header = () => {
                                 />
                             </Paper>
                         </div>
-                        <div className="ContactLink__ flex lg:w-full md:px-20 sm:px-5 xs:ml-0 justify-end gap-5 xl:visible lg:visible md:visible sm:invisible xss:invisible">
+                        <div className="ContactLink__ flex lg:w-full md:px-20 sm:px-5 justify-end gap-5 xl:visible lg:visible md:invisible sm:invisible xss:invisible">
                             <a className="flex font-sans font-bold" href="#contact"><PhoneIcon className="mx-2 "/> Contact</a>
                             <div className="Darkmode__ ">
                                 <button><Brightness4Icon /></button>
@@ -48,11 +48,10 @@ const Header = () => {
                             <div className="MoreInfo">
                                 <MoreVertIcon />
                             </div>
-                            <div className="ToggleSidebar__ absolute xs:mx-10 xss:mx-5 xl:invisible lg:invisible md:visible sm:visible xss:visible">
-                                <MenuIcon type="button" className="MenuIcon__ cursor-pointer" id="ToggleMenuIcon__"/>
-                            </div>
                         </div>
-                            
+                        <div className="ToggleSidebar__ absolute xs:mx-10 xss:mx-5 xs:right-0 xss:right-0 sm:right-0 xl:invisible lg:invisible md:invisible sm:visible xss:visible">
+                            <MenuIcon type="button" className="MenuIcon__ cursor-pointer" id="ToggleMenuIcon__"/>
+                        </div>
                     </div>
                 </div>
             </div>
