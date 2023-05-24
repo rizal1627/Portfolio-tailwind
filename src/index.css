@@ -16,7 +16,9 @@
   height: 600px;
   padding-top: 100px;
 }
-
+.Skills_ {
+  height: 800px;
+}
 .Contact_ {
   height: 800px;
 }
@@ -36,46 +38,6 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-
-@media (min-width: 1280px){
-  .HTop {
-    height: 800px;
-  }
-  .DescCard__{
-    margin-right: 20px;
-    margin-left: 10px;
-    padding: 20px;
-  }
-}
-
-@media (min-width: 1024px){
-  .HTop {
-    height: 1000px;
-  }
-  .DescCard__{
-    margin-right: 20px;
-    margin-left: 20px;
-    padding: 20px;
-  }
-}
-
-@media (min-width: 768px) {
-}
-
-@media (min-width: 640px){
-  .HTop {
-    height: 1000px;
-  }
-  .DescCard__{
-    margin-right: 20px;
-    margin-left: 20px;
-    padding: 20px;
-  }
-}
-
-@media (min-width: 400px){
-
 }
 
 /* Media size layar dari 321 - 415 */
