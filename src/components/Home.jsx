@@ -18,7 +18,7 @@ import FileDownloadIcon from '@mui/icons-material/FileDownload';
 import Layout from "./Layout/Layout";
 import Projects from "./section/Projects";
 import Skills from "./section/Skills";
-import About from "./section/About";
+import About from "./section/about";
 import Contact from "./section/Contact";
 
 >>>>>>> develop

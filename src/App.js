@@ -2,10 +2,9 @@
 import './App.css';
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Home from "./components/Home"
-import About from './components/section/About';
+import About from './components/section/about';
 import Projects from './components/section/Projects';
-// import Home2 from './components/Home2';
-// import Skills from './components/section/Skills';
+
 
 
 function App() {
