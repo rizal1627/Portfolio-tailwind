@@ -36,7 +36,7 @@ const Home = () => {
                                         </button>
                                     </div>
                                 </div>
-                                </div>
+                            </div>
                         </section>
                         <Projects />
                         <Skills/>
