@@ -5,15 +5,13 @@ import PhoneIcon from '@mui/icons-material/Phone';
 import Brightness4Icon from '@mui/icons-material/Brightness4';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import MenuIcon from '@mui/icons-material/Menu';
-
-
 import Logo from "../img/RSALogo.png"
 import Sidebar from "../Sidebar/Sidebar";
 
 const Header = () => {
     
     return (
-        <div>
+        <>
             <div className="Header_Main flex sm:fixed xs:fixed xss:fixed xl:w-full lg:w-full md:w-full sm:w-full xs:w-full xss:w-full xl:h-20 lg:h-20 md:h-20 sm:h-20 xs:h-20 xss:h-20 shadow-lg bg-gray-50 ">
                 <div className="Nav__ flex sm:py-2 xs:py-2 xss:m-3 xss:p-2 xl:w-full lg:w-full md:w-full sm:w-full xs:w-full xss:w-full items-center">
                     <div className="NavList__ flex items-center">
@@ -56,7 +54,7 @@ const Header = () => {
                 </div>
             </div>
             <Sidebar/>
-        </div>
+        </>
     )
 
 }
