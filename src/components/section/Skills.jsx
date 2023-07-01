@@ -7,11 +7,7 @@ import { FaFigma } from "react-icons/fa";
 const Skills = () => {
     return (
         <>
-<<<<<<< HEAD
-            <section className="Skills_ md:w-full xss:w-full xss:p-10 max-h-max bg-gradient-to-t from-slate-100/0 to-sky-300/25" id="skills">
-=======
             <section className="Skills_ md:w-full xss:w-full xss:pb-10 xss:max-h-max bg-gradient-to-t from-slate-100/0 to-sky-300/25" id="skills">
->>>>>>> develop
                     <h1 className="TitleSkills_ xss:text-3xl font-mono font-bold xss:pb-10 xss:pt-24" >Skills</h1>
                     <hr className="xss:py-5 xss:mx-20"></hr>
                     <div className="ListSkillS_ grid xss:grid-cols-2 justify-items-center gap-10 xss:m-5">
