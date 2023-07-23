@@ -1,7 +1,7 @@
 import React from "react";
 
 
-const About = () => {
+const Abouts = () => {
     return (
         <>
             <section className="About_ md:w-full xss:w-full xss:max-h-max xss:px-10 xss:pb-10 bg-slate-100 " id="about">
@@ -19,4 +19,4 @@ const About = () => {
     )
 
 }
-export default About;
+export default Abouts;
