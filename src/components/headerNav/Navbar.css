@@ -1,4 +1,8 @@
 .Sidenav__ {
     color: red;
-    left: -300px;
+    left: 200px;
+    visibility: hidden;
+}
+.ListMenu__ a:focus{
+    color: white;
 }

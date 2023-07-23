@@ -19,7 +19,12 @@
 .Skills_ {
   height: 800px;
 }
-
+.Contact_ {
+  height: 800px;
+}
+.sidenav {
+  visibility: hidden;
+}
 
 body {
   margin: 0;
@@ -35,6 +40,7 @@ code {
     monospace;
 }
 
+/* Media size layar dari 321 - 415 */
 .TNxss{
   @apply xss:p-5 xss:text-3xl;
 }
@@ -44,3 +50,6 @@ code {
 .DHxss {
   @apply xss:text-center xss:text-xs;
 }
+
+/* Media size layar dari 416 - 640 */
+
