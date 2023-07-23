@@ -2,7 +2,7 @@
 import './App.css';
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Home from "./components/Home"
-import About from './components/section/about';
+import About from './components/section/About';
 import Projects from './components/section/Projects';
 
 
