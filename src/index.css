@@ -7,10 +7,7 @@
   padding: 0%;
   box-sizing: border-box;
 }
-.SideBar__ {
-  visibility: hidden;
-  position: fixed;
-}
+
 
 .HTop{
   height: 600px;

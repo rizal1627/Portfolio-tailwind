@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Paper from '@mui/material/Paper';
 import InputBase from '@mui/material/InputBase';
 import PhoneIcon from '@mui/icons-material/Phone';
@@ -13,12 +13,18 @@ import "./Navbar.css"
 import Logo from "../img/RSALogo.png"
 
 const Navbar = () => {
+
+    const {open, setOpen} = useState(true);
+
+    function handleClick() {
+        
+    }
     
     
     return (
         <>
             <div className="Header_Main flex sm:fixed xs:fixed xss:fixed xl:w-full lg:w-full md:w-full sm:w-full xs:w-full xss:w-full xl:h-20 lg:h-20 md:h-20 sm:h-20 xs:h-20 xss:h-20 shadow-lg bg-gray-50 ">
-                <div className="Nav__ flex sm:py-2 xs:py-2 xss:m-3 xss:p-2 xl:w-full lg:w-full md:w-full sm:w-full xs:w-full xss:w-full items-center">
+                <div className="Nav__ flex sm:py-2 xs:py-2 xss:m-3 xss:p-2 xl:min-w-full lg:min-w-full md:min-w-full sm:w-full xs:w-full xss:w-full items-center">
                     <div className="NavList__ flex items-center">
                         <div className="Logo__ xss:absolute md:mx-1">
                             <a className="" href="/">
