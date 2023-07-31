@@ -40,10 +40,10 @@ const Contact = () => {
                                 </div>
                             </form>
                             <div className="socialmedia__ leading-relaxed">
-                                <a href="#" className="flex"><SiLinkedin className="my-1 mx-1" color='#063970'/>Linkedin</a>
-                                <a href="#" className="flex"><SiInstagram className="my-1 mx-1" color='#FF6969'/>Instagram</a>
-                                <a href="#" className="flex"><SiFacebook className="my-1 mx-1" color='3E54AC'/>Facebook</a>
-                                <a href="#" className="flex"><SiWhatsapp className="my-1 mx-1" color='03C988'/>Whatsapp</a>
+                                <a href="/" className="flex"><SiLinkedin className="my-1 mx-1" color='#063970'/>Linkedin</a>
+                                <a href="/" className="flex"><SiInstagram className="my-1 mx-1" color='#FF6969'/>Instagram</a>
+                                <a href="/" className="flex"><SiFacebook className="my-1 mx-1" color='3E54AC'/>Facebook</a>
+                                <a href="/" className="flex"><SiWhatsapp className="my-1 mx-1" color='03C988'/>Whatsapp</a>
                             </div>
                         </div>
             </section>
