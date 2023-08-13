@@ -50,14 +50,10 @@ const Projects = () => {
                                 </div>
                         </div>
                         <div className="cardProject__ border h-full max-w-max xss:m-auto shadow-lg rounded-lg bg-gray-50 ">
-                                <img className="xss:object-cover rounded-t-lg xss:h-48 xss:w-full" src={Img1} alt="" />
-                                <div className="titleCard__ xss:p-2">
-                                     <h3 className="xss:text-md font-sans font-bold hover:text-pink-800 transition delay-150 ease-in-out"><a href="./">Asy-Syatibiyyah Web (Coming Soon)</a></h3>
-                                </div>
                                 <div className="cardProject__ border h-full max-w-max xss:m-auto shadow-lg rounded-lg bg-gray-50 ">
                                     <img className="xss:object-cover rounded-t-lg xss:h-48 xss:w-full" src={Img1} alt="" />
                                     <div className="titleCard__ xss:p-2">
-                                         <h3 className="xss:text-md font-sans font-bold">Weedding Invitation Web (Coming Soon)</h3>
+                                     <h3 className="xss:text-md font-sans font-bold hover:text-pink-800 transition delay-150 ease-in-out"><a href="./">Asy-Syatibiyyah Web (Coming Soon)</a></h3>
                                     </div>
                                     <p className="px-5 text-sm text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam totam praesentium aperiam molestias officiis voluptates, asperiores incidunt hic provident dolores neque unde cupiditate </p>
                                     <div className="flex xss:justify-center xss:m-2 font-sans font-light">
