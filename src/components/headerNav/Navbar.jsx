@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+// import React, { useState } from "react";
 import Paper from '@mui/material/Paper';
 import InputBase from '@mui/material/InputBase';
 import PhoneIcon from '@mui/icons-material/Phone';
@@ -14,13 +14,6 @@ import Logo from "../img/RSALogo.png"
 
 const Navbar = () => {
 
-    const {open, setOpen} = useState(true);
-
-    function handleClick() {
-        
-    }
-    
-    
     return (
         <>
             <div className="Header_Main flex sm:fixed xs:fixed xss:fixed xl:w-full lg:w-full md:w-full sm:w-full xs:w-full xss:w-full xl:h-20 lg:h-20 md:h-20 sm:h-20 xs:h-20 xss:h-20 shadow-lg bg-gray-50 ">
@@ -64,16 +57,16 @@ const Navbar = () => {
                             <div className="ToggleSidebar__ absolute xs:mx-10 xss:mx-5 xl:invisible lg:invisible md:visible sm:visible xss:visible">
                                 <MenuIcon type="button" className="MenuIcon__ cursor-pointer" id="ToggleMenuIcon__"/>
                             </div>
-                        </div>
-                            
+                        </div>    
                     </div>
                 </div>
             </div>
             <div>
             </div>
-            {/* Start SideBar */}
-                <div className="Sidenav__ fixed h-full w-60 z-10 bg-black text-yellow-50" id="mySidenav" >
-                    <CloseIcon/>
+            <div className="Sidenav__ fixed h-full w-60 z-10 bg-black text-yellow-50 visible" id="mySidenav" >
+                    <div className="m-10">
+                        <CloseIcon className="absolute inset-y-5 right-5" />
+                    </div>
                     <div className="grid grid-cols-1">
                         <h1 className="font-mono font-bold text-green-600 text-2xl p-5">Menu Utama</h1>
                         <ul className="grid grid-cols-1 gap-4 font-mono font-bold">
@@ -85,7 +78,7 @@ const Navbar = () => {
                         </ul>
                     </div>
                 </div>
-            {/* End SideBar */}
+            
         </>
     )
 

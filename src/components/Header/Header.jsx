@@ -1,15 +1,16 @@
-import React from "react";
+// import React, { useState } from "react";
 import Paper from '@mui/material/Paper';
 import InputBase from '@mui/material/InputBase';
 import PhoneIcon from '@mui/icons-material/Phone';
 import Brightness4Icon from '@mui/icons-material/Brightness4';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
+// import CloseIcon from '@mui/icons-material/Close';
 import MenuIcon from '@mui/icons-material/Menu';
-import Logo from "../img/RSALogo.png"
-import Sidebar from "../Sidebar/Sidebar";
+import Logo from "../../assets/img/RSALogo.png"
+// import Sidebar from "../Sidebar/Sidebar";
 
 const Header = () => {
-    
+
     return (
         <>
             <div className="Header_Main flex sm:fixed xs:fixed xss:fixed xl:w-full lg:w-full md:w-full sm:w-full xs:w-full xss:w-full xl:h-20 lg:h-20 md:h-20 sm:h-20 xs:h-20 xss:h-20 shadow-lg bg-gray-50 ">
@@ -53,7 +54,23 @@ const Header = () => {
                     </div>
                 </div>
             </div>
-            <Sidebar/>
+            {/* <Sidebar/> */}
+            {/* <div className={`Sidenav__ fixed h-full w-60 z-10 bg-black text-yellow-50 ${isClosed ? 'invisible': 'visible'}`} id="mySidenav" >
+                    <div className="m-10">
+                        <CloseIcon className="absolute inset-y-5 right-5" onClick={handleClosed} />
+                    </div>
+                    <div className="grid grid-cols-1">
+                        <h1 className="font-mono font-bold text-green-600 text-2xl p-5">Menu Utama</h1>
+                        <ul className="grid grid-cols-1 gap-4 font-mono font-bold">
+                            <ul><a href="#home">Home</a></ul>
+                            <ul><a href="#projects">Projects</a></ul>
+                            <ul><a href="#skills">Skils</a></ul>
+                            <ul><a href="#about">About</a></ul>
+                            <ul><a href="#contact">Contact</a></ul>
+                        </ul>
+                    </div>
+                </div> */}
+               
         </>
     )
 
