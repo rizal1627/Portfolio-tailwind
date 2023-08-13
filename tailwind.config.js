@@ -14,10 +14,10 @@ module.exports = {
       'sm': '640px',
       // => @media (min-width: 640px) { ... } size layar dari 641 -880
 
-      'md': '880px',
+      'md': '768px',
       // => @media (min-width: 768px) { ... } size layar dari 780 - 1028
 
-      'lg': '1028px',
+      'lg': '1024px',
       // => @media (min-width: 1024px) { ... } size layar dari 1025 - 1280
       'xl': '1280px',
       // => @media (min-swidth: 1280px) { ... } size layar dari 1281 - 1536

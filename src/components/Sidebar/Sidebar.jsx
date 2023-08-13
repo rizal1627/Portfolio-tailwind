@@ -1,14 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import CloseIcon from '@mui/icons-material/Close';
 
+
 const Sidebar = () => {
-    
+    const {isClosed, setIsClosed} = useState(false);
+
+    const handleClosed = () => {
+        setIsClosed(!isClosed)
+    }
     return (
-        <div>
-            {/* Start SideBar */}
-                <div className="Sidenav__ fixed h-full w-60 z-10 bg-black text-yellow-50 invisible" id="mySidenav" >
+        <div >
+                <div className={`Sidenav__ fixed h-full w-60 z-10 bg-black text-yellow-50 ${isClosed ? 'invisible': 'visible'}`} id="mySidenav" >
                     <div className="m-10">
-                        <CloseIcon className="absolute inset-y-5 right-5"/>
+                        <CloseIcon className="absolute inset-y-5 right-5" onClick={handleClosed} />
                     </div>
                     <div className="grid grid-cols-1">
                         <h1 className="font-mono font-bold text-green-600 text-2xl p-5">Menu Utama</h1>
@@ -21,7 +25,6 @@ const Sidebar = () => {
                         </ul>
                     </div>
                 </div>
-            {/* End SideBar */}
         </div>
     )
 

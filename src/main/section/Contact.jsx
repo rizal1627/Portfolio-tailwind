@@ -9,9 +9,11 @@ const Contact = () => {
     return (
         <>
             <section className="Contact_ md:w-full xss:w-full xss:px-10 font-mono" id="contact">
-                <h1 className="TitlelContact__ xss:text-3xl xss:pb-16 xss:pt-24 font-bold" > Contact Me</h1>
+                <div className="flex flex-col justify-center items-center">
+                    <h1 className="text-3xl xss:pb-10 xss:pt-24 font-bold"> Contact Me</h1>
                     <h2>Contact Me Today!</h2>
-                        <p>Hubungi Saya melalui salah satu social media saya yang telah ada di bawah ini.</p>
+                    <p>Hubungi Saya melalui salah satu social media saya yang telah ada di bawah ini.</p>
+                </div>
                         <div className="formContact_ my-10 xl:px-32">
                             <form action="#" className="grid grid-cols-1 gap-4">
                                 <div className="nameInput_">
