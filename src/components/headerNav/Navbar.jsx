@@ -14,16 +14,6 @@ import Logo from "../img/RSALogo.png"
 
 const Navbar = () => {
 
-<<<<<<< HEAD
-    const {open, setOpen} = useState(true);
-
-    function handleClick() {
-        
-    }
-    
-    
-=======
->>>>>>> develop
     return (
         <>
             <div className="Header_Main flex sm:fixed xs:fixed xss:fixed xl:w-full lg:w-full md:w-full sm:w-full xs:w-full xss:w-full xl:h-20 lg:h-20 md:h-20 sm:h-20 xs:h-20 xss:h-20 shadow-lg bg-gray-50 ">
@@ -88,13 +78,8 @@ const Navbar = () => {
                         </ul>
                     </div>
                 </div>
-<<<<<<< HEAD
-            {/* End SideBar */}
-        </>
-=======
             
-        </div>
->>>>>>> develop
+        </>
     )
 
 }

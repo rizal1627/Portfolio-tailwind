@@ -2,7 +2,7 @@
 import './App.css';
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 // import Home from "./main/index"
-import Home from "./components/home"
+import Home from "./components/Home"
 import About from './main/section/About';
 import Projects from './main/section/Projects';
 import Admin from './main/admin/dashboard';
