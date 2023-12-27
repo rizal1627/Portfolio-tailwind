@@ -9,8 +9,8 @@ const Projects = () => {
     return (
          <>
             <section className="Projects_ md:w-full xss:w-full xss:max-h-max bg-gradient-to-t from-sky-300/25 to-slate-100/0" id="projects">
-                <div className="ProjectList__ xss:p-5">
-                    <h1 className="titleProjects__ text-3xl py-10 font-mono font-bold flex justify-center">My Project Completed</h1>
+                <div className="ProjectList__ md:mx-10 xss:mx-5 flex flex-col">
+                    <h1 className="titleProjects__ xss:text-2xl md:text-3xl md:py-10 xss:py-5 font-mono font-bold flex justify-center">My Project Completed</h1>
                     <hr className="xss:py-5 xss:mx-20"></hr>
                     <div className="cardListProjects__ grid xss:grid-cols-1 gap-4 xl:grid-cols-3 sm:grid-cols-2 xl:px-20">
                         <div className="cardProject__ border h-full max-w-max xss:m-auto shadow-lg rounded-lg bg-gray-50 ">
@@ -68,6 +68,9 @@ const Projects = () => {
                                     </div>
                                 </div>
                         </div>
+                    </div>
+                    <div className="all_project flex justify-end mx-20 my-10 font-mono font-bold">
+                        <a href="/all-projects"> See All Projects</a>
                     </div>
                 </div>
                 </section>
