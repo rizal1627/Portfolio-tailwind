@@ -23,6 +23,7 @@ const home = () => {
                         </div>
                         <div className="text-pink-800">
                             <h1>Rizal Setio Aji</h1>
+                            <h2>QA Enginer</h2>
                         </div>
                     </div>
                     <div className="DescCard__ xsss:text-justify xss:text-xs grid grid-cols-1">
