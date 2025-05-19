@@ -38,7 +38,7 @@ code {
 }
 
 /* Media size layar dari 321 - 415 */
-.TNxss{
+/* .TNxss{
   @apply xss:p-5 xss:text-3xl;
 }
 .TWxss {
@@ -46,7 +46,7 @@ code {
 }
 .DHxss {
   @apply xss:text-center xss:text-xs;
-}
+} */
 
 /* Media size layar dari 416 - 640 */
 

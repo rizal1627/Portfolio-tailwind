@@ -8,6 +8,7 @@ import Projects from './main/section/Projects';
 import Admin from './main/admin/dashboard';
 import Login from './main/admin/login';
 import Skills from './main/section/Skills';
+import Allprojects from './main/allprojects';
 
 
 
@@ -23,6 +24,7 @@ function App() {
           <Route path="/admin" element={<Admin/>} />
           <Route path="/login" element={<Login/>} />
           <Route path="/skills" element={<Skills/>} />
+          <Route path="/all-projects" element={<Allprojects/>} />
         </Routes>
       </BrowserRouter>
     </>

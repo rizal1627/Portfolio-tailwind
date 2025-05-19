@@ -16,15 +16,14 @@ const Navbar = () => {
 
     return (
         <>
-            <div className="Header_Main flex sm:fixed xs:fixed xss:fixed xl:w-full lg:w-full md:w-full sm:w-full xs:w-full xss:w-full xl:h-20 lg:h-20 md:h-20 sm:h-20 xs:h-20 xss:h-20 shadow-lg bg-gray-50 ">
-                <div className="Nav__ flex sm:py-2 xs:py-2 xss:m-3 xss:p-2 xl:min-w-full lg:min-w-full md:min-w-full sm:w-full xs:w-full xss:w-full items-center">
-                    <div className="NavList__ flex items-center">
+            <div className="Header_Main flex xss:fixed xl:w-full lg:w-full md:w-full sm:w-full xs:w-full xss:w-full xl:h-20 lg:h-20 md:h-20 sm:h-20 xs:h-20 xss:h-20 shadow-lg bg-gray-50 ">
+                    <div className="NavList__ flex flex-row items-center">
                         <div className="Logo__ xss:absolute md:mx-1">
                             <a className="" href="/">
                                  <img className=" xl:h-12 lg:h-12 md:h-12 sm:h-12 xss:h-12 " alt="logo" src={Logo}></img>
                             </a>
                         </div>
-                        <div className="MenuLink__ xl:pr-100 lg:mx-1 md:px-20 sm:p-2 sm:w-96 xs:w-50 xss:w-32 font-sans text-lg xl:visible lg:visible md:visible xss:invisible font-bold">
+                        <div className="MenuLink__ xl:pr-100 lg:mx-1 md:px-20 sm:p-2 sm:w-96 xs:w-50 xss:w-32 font-sans text-lg md:visible xss:invisible font-bold">
                             <div className="ListMenu__ md:pl-5 ">
                                 <ul className="flex">
                                     <li><a className="p-4 hover:text-pink-800 active:focus:text-pink-200 transition delay-150 ease-in-out " href="#home" >Home</a></li>
@@ -59,7 +58,8 @@ const Navbar = () => {
                             </div>
                         </div>    
                     </div>
-                </div>
+                {/* <div className="Nav__ flex sm:py-2 xs:py-2 xss:m-3 xss:p-2 w-full items-center">
+                </div> */}
             </div>
             <div>
             </div>
@@ -77,7 +77,7 @@ const Navbar = () => {
                             <ul><a href="#contact">Contact</a></ul>
                         </ul>
                     </div>
-                </div>
+             </div>
             
         </>
     )

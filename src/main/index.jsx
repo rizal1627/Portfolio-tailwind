@@ -13,7 +13,6 @@ import Comment from "./comment/comment";
 
 const Index = () => {
     <>
-        <div className="Main xs:w-full">
             <Layout>         
                 <div className="Menu__">
                     <section className="HTop md:w-full xss:w-full grid grid-cols-1 " id="home">
@@ -45,7 +44,8 @@ const Index = () => {
                     <Comment/>
                 </div>
             </Layout>
-        </div>
+        {/* <div className="Main xs:w-full">
+        </div> */}
     </>
 }
 
