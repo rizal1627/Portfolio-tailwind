@@ -6,9 +6,92 @@ import Brightness4Icon from '@mui/icons-material/Brightness4';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import MenuIcon from '@mui/icons-material/Menu';
 import Logo from "../../assets/img/RSALogo.png";
+import Box from '@mui/material/Box';
 
+import IconButton from '@mui/material/IconButton';
+import Menu from '@mui/material/Menu';
+import MenuItem from '@mui/material/MenuItem';
+import Container from '@mui/material/Container';
+// import MoreVertIcon from '@mui/icons-material/MoreVert';
+
+
+
+const options = [
+    'None',
+    'Atria',
+    'Callisto',
+    'Dione',
+    'Ganymede',
+    'Hangouts Call',
+    'Luna',
+    'Oberon',
+    'Phobos',
+    'Pyxis',
+    'Sedna',
+    'Titania',
+    'Triton',
+    'Umbriel',
+  ];
+  
+  const ITEM_HEIGHT = 48;
 
 const Header = () => {
+
+    // const [anchorEl, setAnchorEl] = React.useState(null);
+    // const open = Boolean(anchorEl);
+    // const handleClick = (event) => {
+    //     setAnchorEl(event.currentTarget);
+    // };
+    // const handleClose = () => {
+    //     setAnchorEl(null);
+    // };
+    
+    // return (
+    //     <>
+    //     <Box sx={{ bgcolor: 'red'}}>
+    //         <Container maxWidth="xl">
+    //             <Box sx={{ bgcolor: '#cfe8fc', height: '25vh', width:'full' }}>
+
+    //             </Box>
+    //         </Container>
+    //     </Box>
+    //     <Box component="section" sx={{ p: 2, border: '1px solid grey' }}>
+    //         <IconButton
+    //             aria-label="more"
+    //             id="long-button"
+    //             aria-controls={open ? 'long-menu' : undefined}
+    //             aria-expanded={open ? 'true' : undefined}
+    //             aria-haspopup="true"
+    //             onClick={handleClick}
+    //         >
+    //         <MoreVertIcon />
+    //         </IconButton>
+    //         <Menu
+    //             id="long-menu"
+    //             MenuListProps={{
+    //             'aria-labelledby': 'long-button',
+    //             }}
+    //             anchorEl={anchorEl}
+    //             open={open}
+    //             onClose={handleClose}
+    //             slotProps={{
+    //             paper: {
+    //                 style: {
+    //                 maxHeight: ITEM_HEIGHT * 4.5,
+    //                 width: '20ch',
+    //                 },
+    //             },
+    //             }}
+    //         >
+    //             {options.map((option) => (
+    //             <MenuItem key={option} selected={option === 'Pyxis'} onClick={handleClose}>
+    //                 {option}
+    //             </MenuItem>
+    //             ))}
+    //         </Menu>
+    //     </Box>
+    //     </>
+    // )
 
     const [anchorEl, setAnchorEl] = React.useState(null);
     const open = Boolean(anchorEl);
