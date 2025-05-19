@@ -8,7 +8,7 @@ import {
 const Projects = () => {
     return (
          <>
-            <section className="Projects_ md:w-full xss:w-full xss:max-h-max bg-gradient-to-t from-sky-300/25 to-slate-100/0" id="projects">
+            <section className="Projects_ grid grid-cols-1 bg-gradient-to-t from-sky-300/25 to-slate-100/0" id="projects">
                 <div className="ProjectList__ md:mx-10 xss:mx-5 flex flex-col">
                     <h1 className="titleProjects__ xss:text-2xl md:text-3xl md:py-10 xss:py-5 font-mono font-bold flex justify-center">My Project Completed</h1>
                     <hr className="xss:py-5 xss:mx-20"></hr>
