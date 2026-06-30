@@ -2,29 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
+/* * {
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
-}
-.SideBar__ {
+} */
+/* .SideBar__ {
   visibility: hidden;
   position: fixed;
-}
+} */
 
-.HTop{
-  height: 600px;
-  padding-top: 100px;
-}
+
 .Skills_ {
   height: 800px;
 }
 .Contact_ {
   height: 800px;
 }
-.sidenav {
+/* .sidenav {
   visibility: hidden;
-}
+} */
 
 body {
   margin: 0;
@@ -41,21 +38,21 @@ code {
 }
 
 @media (min-width: 1280px){
-  .HTop {
+  /* .HTop {
     height: 800px;
-  }
-  .DescCard__{
+  } */
+  /* .DescCard__{
     margin-right: 20px;
     margin-left: 10px;
     padding: 20px;
-  }
+  } */
 }
 
 @media (min-width: 1024px){
-  .HTop {
+  /* .HTop {
     height: 1000px;
-  }
-  .DescCard__{
+  } */
+  /* .DescCard__{
     margin-right: 20px;
     margin-left: 20px;
     padding: 20px;
@@ -66,14 +63,14 @@ code {
 }
 
 @media (min-width: 640px){
-  .HTop {
+  /* .HTop {
     height: 1000px;
-  }
-  .DescCard__{
+  } */
+  /* .DescCard__{
     margin-right: 20px;
     margin-left: 20px;
     padding: 20px;
-  }
+  } */
 }
 
 @media (min-width: 400px){
