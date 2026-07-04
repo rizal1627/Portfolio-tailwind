@@ -9,13 +9,13 @@ const Home = () => {
     return (
         <>
             <Navbar/>
-            <div className="Main flex flex-col w-full bg-slate-800/70 lg:pt-20 xss:pt-72">
+            <div className="Main flex flex-col bg-slate-800/70 lg:pt-20 xss:pt-72">
                     <section className="Portofolio h-full w-full flex flex-col text-center" id="home">
-                        <div className="xss:mx-10 xss:my-5 xss:p-5 xss:shadow-lg xss:rounded-lg bg-slate-200/10">
-                            <h1  className="xss:p-5 xss:text-3xl font-mono font-bold tracking-wide">Hello, I'am 
-                            <br></br><span className="text-pink-800"> Rizal Setio Aji</span>
+                        <div className="xss:mx-10 xss:my-5 xss:p-5 xss:shadow-lg xss:rounded-lg bg-slate-300">
+                            <h1  className="xss:p-5 lg:p-2 xss:text-3xl lg:text-5xl font-mono font-bold tracking-wide transition delay-200 ease-in-out hover:scale-110 duration-300">Hello, I'am 
                             </h1>
-                            <h2 className="xss:text-lg xss:m-2 font-sans font-bold ransition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 animate-pulse">QA Tester   
+                            <h1 className="xss:text-3xl lg:text-8xl transition delay-200 ease-in-out hover:scale-110 duration-300 bg-gradient-to-r from-pink-600 to-violet-800 hover:from-violet-800 hover:to-pink-600 bg-clip-text text-transparent"> Rizal Setio Aji</h1>
+                            <h2 className="xss:text-lg lg:text-3xl xss:m-2 font-sans font-bold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 animate-pulse">QA Tester   
                             </h2>
                         <div className="">
                             <div className="DescCard__ flex flex-col">
@@ -39,17 +39,19 @@ const Home = () => {
                         </div>
                         </div>
                     </section>
-                    <section className="Projects_ md:w-full xss:w-full xss:max-h-max bg-gradient-to-t from-sky-300/25 to-slate-100/0" id="projects">
-                            <div className="ProjectList__ xss:p-5">
-                                <h3 className="titleProjects__ xss:text-3xl xss:py-10 font-mono font-bold">My Project Completed</h3><hr className="xss:py-5 xss:mx-20"></hr>
-                                <div className="cardListProjects__ grid xss:grid-cols-1 xss:gap-4">
-                                    <div className="cardProject__ border xss:max-h-max xss:w-72 xss:m-auto shadow-lg rounded-lg bg-gray-50 ">
+                    <section className="Projects_ flex flex-col md:w-full xss:w-full xss:max-h-max bg-gradient-to-t from-sky-300/50 to-slate-100/0" id="projects">
+                    <div className="flex justify-center">
+                        <hr className=""></hr>
+                        <h1 className="titleProjects__ xss:text-3xl xss:py-10 lg:text-5xl font-mono font-bold">My Project</h1>                
+                    </div>
+                    <div className="ProjectList__ flex flex-row gap-2 m-2">
+                            <div className="cardProject__ border xss:max-h-max xss:w-full shadow-lg rounded-lg bg-gray-50 ">
                                         <img className="xss:object-cover rounded-t-lg xss:h-48 xss:w-full" src={Img1} alt="" />
                                         <div className="titleCard__ xss:p-2">
                                             <h3 className="xss:text-md font-sans font-bold">My Portfolio</h3>
                                         </div>
                                         <p className="px-5 text-sm text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam totam praesentium aperiam molestias officiis voluptates, asperiores incidunt hic provident dolores neque unde cupiditate </p>
-                                        <div className="flex xss:justify-center xss:m-2 font-sans font-light">
+                                        {/* <div className="flex xss:justify-center xss:m-2 font-sans font-light">
                                             <div className="grid xss:grid-cols-2 xss:p-4">
                                                 <p className="border border-solid rounded-xl w-20 m-2 shadow-md outline outline-blue-700 shadow-blue-500/50" >Html</p>
                                                 <p className="border border-solid rounded-xl w-20 m-2 shadow-md outline outline-blue-700 shadow-blue-500/50" >Tailwind</p>
@@ -57,15 +59,15 @@ const Home = () => {
                                                 <p className="border border-solid rounded-xl w-20 m-2 shadow-md outline outline-blue-700 shadow-blue-500/50" >React</p>
                                                 <p className="border border-solid rounded-xl w-20 m-2 shadow-md outline outline-blue-700 shadow-blue-500/50" >Mysql</p>
                                             </div>
-                                        </div>
-                                    </div>
-                                    <div className="cardProject__ border xss:max-h-max xss:w-72 xss:m-auto shadow-lg rounded-lg bg-gray-50 ">
+                                        </div> */}
+                            </div>
+                            <div className="cardProject__ border xss:max-h-max xss:w-full shadow-lg rounded-lg bg-gray-50 ">
                                         <img className="xss:object-cover rounded-t-lg xss:h-48 xss:w-full" src={Img1} alt="" />
                                         <div className="titleCard__ xss:p-2">
                                             <h3 className="xss:text-md font-sans font-bold">E-commerce app (Coming Soon ...)</h3>
                                         </div>
                                         <p className="px-5 text-sm text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam totam praesentium aperiam molestias officiis voluptates, asperiores incidunt hic provident dolores neque unde cupiditate </p>
-                                        <div className="flex xss:justify-center xss:m-2 font-sans font-light">
+                                        {/* <div className="flex xss:justify-center xss:m-2 font-sans font-light">
                                             <div className="grid xss:grid-cols-2 xss:p-4">
                                                 <p className="border border-solid rounded-xl w-20 m-2 shadow-md outline outline-blue-700 shadow-blue-500/50" >Html</p>
                                                 <p className="border border-solid rounded-xl w-20 m-2 shadow-md outline outline-blue-700 shadow-blue-500/50" >Tailwind</p>
@@ -73,15 +75,30 @@ const Home = () => {
                                                 <p className="border border-solid rounded-xl w-20 m-2 shadow-md outline outline-blue-700 shadow-blue-500/50" >React</p>
                                                 <p className="border border-solid rounded-xl w-20 m-2 shadow-md outline outline-blue-700 shadow-blue-500/50" >Mysql</p>
                                             </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                        </div> */}
                             </div>
+                            <div className="cardProject__ border xss:max-h-max xss:w-full shadow-lg rounded-lg bg-gray-50 ">
+                                        <img className="xss:object-cover rounded-t-lg xss:h-48 xss:w-full" src={Img1} alt="" />
+                                        <div className="titleCard__ xss:p-2">
+                                            <h3 className="xss:text-md font-sans font-bold">E-commerce app (Coming Soon ...)</h3>
+                                        </div>
+                                        <p className="px-5 text-sm text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam totam praesentium aperiam molestias officiis voluptates, asperiores incidunt hic provident dolores neque unde cupiditate </p>
+                                        {/* <div className="flex xss:justify-center xss:m-2 font-sans font-light">
+                                            <div className="grid xss:grid-cols-2 xss:p-4">
+                                                <p className="border border-solid rounded-xl w-20 m-2 shadow-md outline outline-blue-700 shadow-blue-500/50" >Html</p>
+                                                <p className="border border-solid rounded-xl w-20 m-2 shadow-md outline outline-blue-700 shadow-blue-500/50" >Tailwind</p>
+                                                <p className="border border-solid rounded-xl w-20 m-2 shadow-md outline outline-blue-700 shadow-blue-500/50" >JS</p>
+                                                <p className="border border-solid rounded-xl w-20 m-2 shadow-md outline outline-blue-700 shadow-blue-500/50" >React</p>
+                                                <p className="border border-solid rounded-xl w-20 m-2 shadow-md outline outline-blue-700 shadow-blue-500/50" >Mysql</p>
+                                            </div>
+                                        </div> */}
+                            </div>
+                    </div>
                     </section>
-                    <section className="Skills_ md:w-full xss:w-full xss:p-5 bg-gradient-to-t from-slate-100/0 to-sky-300/25" id="skills">
+                    {/* <section className="Skills_ md:w-full xss:w-full xss:p-5 bg-gradient-to-t from-slate-100/0 to-sky-300/50" id="skills">
                             <h1 className="TitleSkills_ xss:text-3xl font-mono font-bold xss:py-16" >Skills</h1>
-                    </section>
-                    <section className="About_ md:w-full xss:w-full xss:max-h-max xss:px-10 xss:pb-10 bg-slate-100 " id="about">
+                    </section> */}
+                    {/* <section className="About_ md:w-full xss:w-full xss:max-h-max xss:px-10 xss:pb-10 bg-slate-100 " id="about">
                             <h1 className="TilteAbout__ xss:text-3xl xss:pt-16 font-mono font-bold">About me</h1>
                             <div className="ListAbout__ grid xss:grid-col-1 xss:text-justify gap-4">
                                 <h2 className="xss:pt-10 font-mono font-bold">Lulus Sekolah SMK Tunas Bangsa</h2>
@@ -91,12 +108,12 @@ const Home = () => {
                                 <h2 className="xss:pt-10 font-mono font-bold">Bekerja Sebaga QA Manual di Tokopedia</h2>
                                 <p>Saya bekera sebagai QA Manual di Tokopedia pada akhir tahun 2020, pada pekerjaan ini saya sangat bersyukur bisa bergabung di salah satu perushaan e-commerce terbesar di Indonesia. Di sini saya sangat mendapat banyak ilmu, yang dari sebelumnya belum mengetahui banyak teknologi sekarang telah mendapatkan nya walau masih perlu untuk belajar lebih giat lagi. Dan untuk saat ini, saya sangat menikmati pekerjaan saya di bidang Startup seperti ini.</p>
                             </div>
-                    </section>
-                    <section className="Contact_ md:w-full xss:w-full" id="contact">
+                    </section> */}
+                    {/* <section className="Contact_ md:w-full xss:w-full" id="contact">
                             <h1 className="TitlelContact__ xss:text-3xl xss:py-16 font-mono font-bold" > Contact Me</h1>
                             <h2>Contact Me Today!</h2>
                             <p>Hubungi Saya melalui salah satu social media saya yang telah ada di bawah ini.</p>
-                    </section>
+                    </section> */}
                 <footer className="Footer__ md:w-full xss:w-full xss:max-h-max xss:p-3 xss:grid xss:grid-cols-2 bg-slate-900">
                         <img className="FooterLogo__ xss:p-2 w-36 h-30" src={LogoFooter} alt="rizal seto aji" />
                         <div className="FooterCopyRight__ xss:text-sm xss:p-2 text-gray-300/25">
