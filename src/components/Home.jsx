@@ -44,7 +44,7 @@ const Home = () => {
                         <hr className=""></hr>
                         <h1 className="titleProjects__ xss:text-3xl xss:py-10 lg:text-5xl font-mono font-bold">My Project</h1>                
                     </div>
-                    <div className="ProjectList__ flex flex-row gap-2 m-2">
+                    <div className="ProjectList__ flex xss:flex-col lg:flex-row gap-2 m-2">
                             <div className="cardProject__ border xss:max-h-max xss:w-full shadow-lg rounded-lg bg-gray-50 ">
                                         <img className="xss:object-cover rounded-t-lg xss:h-48 xss:w-full" src={Img1} alt="" />
                                         <div className="titleCard__ xss:p-2">

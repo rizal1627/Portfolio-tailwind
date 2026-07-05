@@ -6,7 +6,7 @@ import React from "react";
 // import MoreVertIcon from '@mui/icons-material/MoreVert';
 // import MenuIcon from '@mui/icons-material/Menu';
 // import CloseIcon from '@mui/icons-material/Close';
-// import Logo from './RSALogo.png';
+// import Logo from '../img/RSALogo.png';
 
 
 // import Logo from "../img/RSALogo.png"
