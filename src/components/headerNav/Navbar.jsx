@@ -1,7 +1,7 @@
 import React from "react";
-import Paper from '@mui/material/Paper';
-import InputBase from '@mui/material/InputBase';
-import PhoneIcon from '@mui/icons-material/Phone';
+// import Paper from '@mui/material/Paper';
+// import InputBase from '@mui/material/InputBase';
+// import PhoneIcon from '@mui/icons-material/Phone';
 // import Brightness4Icon from '@mui/icons-material/Brightness4';
 // import MoreVertIcon from '@mui/icons-material/MoreVert';
 // import MenuIcon from '@mui/icons-material/Menu';
@@ -37,18 +37,18 @@ const Navbar = () => {
                         </div>
                         <div className="Search__ basis-1/2 flex xss:justify-center md:justify-start xl:w-full xss:p-0 md:p-4">
                             <div className="Search__ ">
-                                <Paper elevation={3} component="form"
+                                {/* <Paper elevation={3} component="form"
                                     sx={{ p: '2px', display: 'flex', asgnItems: 'center', width: 400 }}>
                                     <InputBase
                                         sx={{ ml: 2, flex: 1, }}
                                         placeholder="Search"
                                         inputProps={{ 'aria-label': 'search google maps' }}
                                     />
-                                </Paper>
+                                </Paper> */}
                             </div>
                         </div>
                         <div className="ContactLink__ basis-1/4 xss:justify-center md:justify-startr xl:w-full gap-4 xss:p-0 md:p-4">
-                            <a className="flex font-sans font-bold" href="#contact"><PhoneIcon className="mx-2 "/> Contact</a>
+                            {/* <a className="flex font-sans font-bold" href="#contact"><PhoneIcon className="mx-2 "/> Contact</a> */}
                         </div>
                 </div>
             </div>

@@ -2,7 +2,7 @@ import "../index.css"
 import React from "react";
 import Img1 from "./img/pd1.png"
 import LogoFooter from "./img/RSALogo_with_name.png"
-import FileDownloadIcon from '@mui/icons-material/FileDownload';
+// import FileDownloadIcon from '@mui/icons-material/FileDownload';
 import Navbar from "./headerNav/Navbar";
 
 const Home = () => {
@@ -29,7 +29,7 @@ const Home = () => {
                                 </div>
                                 <div className="flex xss:m-10 justify-center">
                                     <button className="border justify-center bg-slate-100 shadow-lg shadow-blue-500/50 w-44 rounded-lg border-blue-300 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 flex py-2">
-                                    <FileDownloadIcon />  
+                                    {/* <FileDownloadIcon />   */}
                                         <a className="font-mono text-center p-1" href={Img1} download>
                                         Resume
                                         </a>
