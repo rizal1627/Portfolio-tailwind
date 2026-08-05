@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.020ebb41.css",
+    "main.js": "/static/js/main.14436141.js",
+    "static/js/787.1f11dfe9.chunk.js": "/static/js/787.1f11dfe9.chunk.js",
+    "static/media/pd1.png": "/static/media/pd1.4be843f6587f65d5b602.png",
+    "static/media/RSALogo_with_name.png": "/static/media/RSALogo_with_name.97ecd3b76f098e9bbd09.png",
+    "static/media/RSALogo.png": "/static/media/RSALogo.3834e3de67e68b7d0807.png",
+    "index.html": "/index.html",
+    "main.020ebb41.css.map": "/static/css/main.020ebb41.css.map",
+    "main.14436141.js.map": "/static/js/main.14436141.js.map",
+    "787.1f11dfe9.chunk.js.map": "/static/js/787.1f11dfe9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.020ebb41.css",
+    "static/js/main.14436141.js"
+  ]
+}
